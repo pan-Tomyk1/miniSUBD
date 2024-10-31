@@ -1,0 +1,32 @@
+
+.rounded-button {
+    -fx-background-radius: 100;  /* Закруглення фону кнопки */
+    -fx-border-radius: 100;      /* Закруглення бордера */
+    -fx-border-color: black;    /* Колір бордера */
+    -fx-background-color: #21615b;
+    -fx-text-fill: white;
+    -fx-wrap-text: true;         /* Включення переносу тексту */
+    -fx-alignment: center;       /* Вирівнювання тексту по центру */
+     -fx-margin: 0 0 15px 0; /* Верхній, правий, нижній, лівий padding для відступу між кнопками */       /* Внутрішні відступи */
+}
+.rounded-button:hover {
+    -fx-background-color: #0097b2; /* Колір фону при наведенні */
+    -fx-text-fill: white;          /* Колір тексту при наведенні */
+    -fx-underline: true;           /* Підкреслення тексту */
+}
+.editButton{
+-fx-background-color: #a6c5bf;
+}
+.applyButton{
+-fx-background-color: #05b4a1;
+}
+.custom-text-field{
+    -fx-background-color: #a5ccba;   /* Колір фону */
+    -fx-border-color: black;       /* Колір рамки */
+    -fx-border-width: 1px;            /* Товщина рамки */
+    -fx-background-radius: 35;        /* Радіус скруглення фону */
+    -fx-border-radius: 35;            /* Радіус скруглення рамки */
+    -fx-padding: 5px;                 /* Внутрішній відступ */
+    -fx-text-fill: white;             /* Колір тексту */
+    -fx-prompt-text-fill: white;
+}

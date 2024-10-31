@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="anchorPane" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.popup.controlers.SearchResultPopUpController">
+   <children>
+      <Pane layoutX="100.0" layoutY="50.0" prefHeight="285.0" prefWidth="400.0" styleClass="pane" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css">
+         <children>
+            <Label layoutX="116.0" layoutY="23.0" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" text="Результат пошуку" />
+            <TextArea fx:id="top_text_area" layoutX="32.0" layoutY="83.0" prefHeight="50.0" prefWidth="335.0" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" />
+            <TextArea fx:id="bottom_text_area" layoutX="32.0" layoutY="167.0" prefHeight="31.0" prefWidth="335.0" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" />
+            <Button fx:id="ok_button" layoutX="158.0" layoutY="210.0" mnemonicParsing="false" onAction="#okButtonClick" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" text="Ок" />
+            <Label layoutX="42.0" layoutY="59.0" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" text="Цілий вузол" />
+            <Label layoutX="42.0" layoutY="142.0" stylesheets="@../../../../images/popUpStyles/search)result-popup_style.css" text="Кількість порівнянь" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

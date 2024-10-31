@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="anchorPane" stylesheets="@../../../../images/popUpStyles/result_validate_popup_style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.popup.controlers.ResultValidatePopUpController">
+   <children>
+      <Pane layoutX="100.0" layoutY="50.0" prefHeight="285.0" prefWidth="400.0" styleClass="pane" stylesheets="@../../../../images/popUpStyles/result_validate_popup_style.css">
+         <children>
+            <Label fx:id="top_label" layoutX="23.0" layoutY="40.0" prefHeight="136.0" prefWidth="368.0" stylesheets="@../../../../images/popUpStyles/result_validate_popup_style.css" text="Label" />
+            <Button fx:id="ok_button" layoutX="169.0" layoutY="195.0" mnemonicParsing="false" onAction="#okButtonClick" text="Ок" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

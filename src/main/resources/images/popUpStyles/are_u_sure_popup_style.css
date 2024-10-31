@@ -1,0 +1,25 @@
+.pane {
+    -fx-background-radius: 35;  /* Закруглення фону кнопки */
+    -fx-border-radius: 35;      /* Закруглення бордера */
+    -fx-border-color: black;    /* Колір бордера */
+    -fx-background-color: #a6c5bf;
+     -fx-margin: 0 0 15px 0; /* Верхній, правий, нижній, лівий padding для відступу між кнопками */       /* Внутрішні відступи */
+}
+.button{
+    -fx-background-color: #05b4a1;
+    -fx-background-radius: 100;  /* Закруглення фону кнопки */
+    -fx-border-radius: 100;      /* Закруглення бордера */
+    -fx-border-color: black;    /* Колір бордера */
+    -fx-font-family: Arial;        /* Шрифт */
+    -fx-font-size: 32px;           /* Розмір шрифту */
+    -fx-text-fill: white;        /* Колір тексту (білий) */
+}
+.label{
+ -fx-font-family: Arial;        /* Шрифт */
+    -fx-font-size: 20px;           /* Розмір шрифту */
+    -fx-text-fill: black;        /* Колір тексту (білий) */
+}
+
+.no_button{
+ -fx-background-color: red;
+}

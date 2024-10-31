@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="lookSceneAnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.LookSceneController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../images/scene_background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="addButton" layoutX="35.0" layoutY="36.0" mnemonicParsing="false" onAction="#addButtonClick" prefHeight="50.0" prefWidth="177.0" styleClass="rounded-button" stylesheets="@../../../images/look_style.css" text="Додати" AnchorPane.topAnchor="35.0">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteButton" layoutX="35.0" layoutY="95.0" mnemonicParsing="false" onAction="#deleteButtonClick" prefHeight="50.0" prefWidth="177.0" styleClass="rounded-button" stylesheets="@../../../images/look_style.css" text="Видалити" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="editButton" layoutX="35.0" layoutY="145.0" mnemonicParsing="false" onAction="#editButtonClick" prefHeight="50.0" prefWidth="177.0" styleClass="rounded-button" stylesheets="@../../../images/look_style.css" text="Редагувати">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchButton" layoutX="35.0" layoutY="200.0" mnemonicParsing="false" onAction="#searchButtonClick" prefHeight="50.0" prefWidth="177.0" styleClass="rounded-button" stylesheets="@../../../images/look_style.css" text="Шукати">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="generateButton" layoutX="35.0" layoutY="255.0" mnemonicParsing="false" onAction="#generateButtonClick" prefHeight="104.0" prefWidth="177.0" styleClass="rounded-button" stylesheets="@../../../images/look_style.css" text="Згенерувати до 10000 вузлів" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="lookButton" layoutX="322.0" layoutY="37.0" mnemonicParsing="false" stylesheets="@../../../images/look_style.css" text="Переглянути вміст">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="rounded-button" />
+            <String fx:value="lookButton" />
+         </styleClass>
+      </Button>
+      <TextArea fx:id="textArea" layoutX="249.0" layoutY="103.0" prefHeight="256.0" prefWidth="315.0" styleClass="textArea" stylesheets="@../../../images/look_style.css" />
+   </children>
+</AnchorPane>
